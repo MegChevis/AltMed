@@ -19,7 +19,6 @@ a:hover {
 
 .section-header {
   font-family: 'Redressed', cursive;
-  font-size: 3vw;
 }
 
 .section-text {
@@ -54,7 +53,7 @@ a:hover {
 }
 
 .nav-link, .navbar-brand {
-  font-size: 2.5vw;
+  font-size: 2rem;
 }
 
 .nav-item {
@@ -78,7 +77,6 @@ a:hover {
 }
 
 .title-header {
-  font-size: 2.5vw;
   font-family: 'Redressed', cursive;
 }
 
@@ -355,6 +353,10 @@ a:hover {
 
   #about, .cases-section, .footer-container, .footer-logo {
     width: 100%;
+  }
+
+  .title-image {
+    width:95%;
   }
 
   .about-container {
