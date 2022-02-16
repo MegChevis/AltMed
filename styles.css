@@ -1,0 +1,364 @@
+
+/* All Sections */
+body{
+  background-color:#ff914d;
+}
+
+div {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: #9e081c;
+}
+
+a:hover {
+  color: #000;
+}
+
+.section-header {
+  font-family: 'Redressed', cursive;
+  font-size: 3rem;
+}
+
+.section-text {
+  font-family: 'Open Sans', sans-serif;
+  text-align: justify;
+}
+
+.red-section {
+  background-color: #9e081c;
+  color: #fff;
+  padding: 90px 50px 50px;
+}
+
+.gold-section {
+  color: #000;
+  padding: 9% 12% 5% 12%;
+}
+
+.gray-section {
+  background-image:url(images/white_texture.jpg);
+  background-color: #545454;
+  color:#000;
+  background-size: 100%;
+  padding: 7% 15% 5%;
+}
+
+/* Navbar */
+.navbar {
+  font-family: 'Redressed', cursive;
+  padding: 1rem 0 0 2rem;
+  background-color: #9e081c;
+}
+
+.nav-link, .navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding:0 1.7rem 0 1.7rem;
+}
+
+/* Title section */
+.title-image {
+  width: 80%;
+}
+
+.welcome-container {
+  padding: 70px 50px 50px;
+  text-align: center;
+}
+
+.title-heading {
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title-header {
+  font-size: 2.5vw;
+  font-family: 'Redressed', cursive;
+}
+
+/* About section */
+#about {
+  width: 70%;
+  margin:auto;
+}
+
+.about-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-container {
+  padding-left: 0;
+}
+
+.about-image {
+  width: 40%;
+  border-radius: 25% 10%;
+  margin: 20px 60px 20px 0;
+  float: left;
+}
+
+.about-image2 {
+  float: right;
+  width: 50%;
+  border-radius: 25% 10%;
+  margin: 20px 0 20px 60px;
+}
+
+.about-image3 {
+  width: 45%;
+  border-radius: 25% 10%;
+  margin: 20px 60px 20px 0;
+  float: left;
+}
+
+.about-text {
+  padding: 2.5% 2% 5%;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+
+
+/* FAQ section */
+
+.faq-image {
+  width: 40%;
+  float: left;
+  border-radius: 25% 10%;
+  margin: 20px 40px 0 20px;
+}
+
+.dolphin-img {
+  margin-bottom: 20px;
+}
+
+.faq-content {
+  width: 80%;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: inherit;
+  color: #545454;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  transition: 0.4s;
+}
+
+.accordion::after {
+  content: "+";
+  font-size: 18px;
+  color: #545454;
+  float: right;
+}
+
+.active1::after {
+  content: "-";
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion .active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: #ccc;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.faq-text {
+  padding: 2.5%;
+}
+
+
+/* Case studies */
+
+.cases-section {
+  width: 70%;
+  padding: 90px 0 50px 0;
+}
+
+.case-header {
+  padding-left: 11%;
+}
+
+.first-paragraph {
+  padding-top: 3%;
+}
+
+.cases-inner {
+  background-color: #9e081c;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+.case-image {
+  width: 30%;
+  float: right;
+  border-radius: 25% 10%;
+  margin: 20px;
+}
+
+.case-image2 {
+  width: 40%;
+  float: left;
+  border-radius: 25% 10%;
+  margin: 30px 30px 20px 0;
+}
+
+
+.case-btn {
+  color: #000;
+}
+
+.case-btn:hover {
+  color: #fff;
+}
+
+.case-btn::after {
+  content: "";
+}
+
+/* Services section  */
+
+.services-container {
+  padding-bottom: 12rem;
+}
+
+.carouselContainer {
+  float: left;
+  max-width: 640px;
+  height: auto;
+}
+
+.inner-services {
+  width: 97%;
+  margin: auto;
+}
+
+.services-text {
+  padding-top: 1.7%;
+}
+.services-icon1 {
+  transform: rotate(-25deg);
+  position: absolute;
+  width: 25%;
+  right: 65%;
+  opacity: 30%;
+}
+
+.services-icon2 {
+  transform: rotate(25deg);
+  position: absolute;
+  width: 25%;
+  right: 15%;
+  top: 35%;
+  opacity: 30%;
+}
+
+.carousel-inner2 {
+  background-color: #ff914d;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+.services-image {
+  max-width: 75%;
+  max-height: 100%;
+  margin: auto;
+  border-radius: 25% 10%;
+}
+
+
+/* Caption text */
+.carousel-caption {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+/* Contact/footer */
+
+.footer-container {
+  width: 70%;
+  margin: auto;
+}
+
+.footer-logo {
+  background-color: #ff914d;
+  width: 50%;
+}
+
+.logo-box {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.footer-box {
+  text-align: center;
+  line-height: 2.5rem;
+  padding-top: 5% 0 0 0;
+}
+
+.footer-box2{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-top: 7%;
+}
+
+.footer-text {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  padding: 3%;
+  line-height: 3rem;
+  display: flex;
+}
+
+.foot-link {
+  color: #fff;
+}
+
+.footer-small-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .7rem;
+  line-height: .2rem;
+  text-align: center;
+  color: #ccc;
+}
+
+
+@media (max-width: 600px) {
+  .title-image, .about-image, .about-image2, .about-image3, .faq-image, .dolphin-img, .case-image, .case-image2, .footer-logo {
+    float: none;
+    width: 100%;
+    margin: auto;
+  }
+
+  #about, .faq-content, .cases-section, .footer-container {
+    width: 95%;
+  }
+
+  .footer-text {
+    flex-direction: column;
+  }
+
+}
