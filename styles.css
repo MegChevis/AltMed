@@ -346,7 +346,7 @@ a:hover {
 }
 
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .title-image, .about-image, .about-image2, .about-image3, .faq-image, .dolphin-img, .case-image, .case-image2, .footer-logo {
     float: none;
     width: 100%;
@@ -361,4 +361,4 @@ a:hover {
     flex-direction: column;
   }
 
-}
+} */
