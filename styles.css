@@ -350,6 +350,11 @@ a:hover {
     font-size:2.5rem;
   }
 
+  .title-heading {
+    font-size: 2vw;
+    top: 90%;
+  }
+
   .red-section, .gray-section {
     padding-left: 0;
     padding-right: 0;
@@ -379,12 +384,12 @@ a:hover {
 
   .title-image, .about-image, .about-image2, .about-image3, .faq-image, .dolphin-img, .case-image, .case-image2, .footer-logo {
     float: none;
+    margin-left: 30%;
   }
 
-  .about-image, .about-image2, .about-image3, .faq-image, .dolphin-img {
-    margin-left: 25%;
+  .footer-logo {
+    margin-left: 0;
   }
-
 
   .footer-text {
     flex-direction: column;
