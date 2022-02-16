@@ -19,7 +19,7 @@ a:hover {
 
 .section-header {
   font-family: 'Redressed', cursive;
-  font-size: 3rem;
+  font-size: 3vw;
 }
 
 .section-text {
@@ -54,7 +54,7 @@ a:hover {
 }
 
 .nav-link, .navbar-brand {
-  font-size: 2rem;
+  font-size: 2.5vw;
 }
 
 .nav-item {
@@ -347,16 +347,32 @@ a:hover {
 
 
 @media (max-width: 600px) {
-  /* .title-image, .about-image, .about-image2, .about-image3, .faq-image, .dolphin-img, .case-image, .case-image2, .footer-logo {
-    float: none;
-    width: 70%;
-    margin: auto;
+
+  .red-section, .gray-section {
+    padding-left: 0;
+    padding-right: 0;
   }
 
-  #about, .faq-content, .cases-section, .footer-container {
-    width: 90%;
-  } */
+  #about, .cases-section, .footer-container, .footer-logo {
+    width: 100%;
+  }
 
+  .about-container {
+    padding-right: 0;
+  }
+
+  .gold-section, .footer-container {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .title-image, .about-image, .about-image2, .about-image3, .faq-image, .dolphin-img, .case-image, .case-image2, .footer-logo {
+    float: none;
+  }
+
+  .about-image, .about-image2, .about-image3, .faq-image, .dolphin-img {
+    margin-left: 25%;
+  }
 
 
   .footer-text {
@@ -364,3 +380,13 @@ a:hover {
   }
 
 }
+
+/*
+
+  width: 70%;
+  margin: auto;
+}
+
+#about, .faq-content, .cases-section, .footer-container {
+  width: 90%;
+} */
