@@ -359,6 +359,11 @@ a:hover {
     width: 100%;
   }
 
+  .welcome-container {
+    padding-top: 25%;
+    padding-bottom: 25%;
+  }
+
   .title-image {
     width:95%;
   }
@@ -386,13 +391,3 @@ a:hover {
   }
 
 }
-
-/*
-
-  width: 70%;
-  margin: auto;
-}
-
-#about, .faq-content, .cases-section, .footer-container {
-  width: 90%;
-} */
