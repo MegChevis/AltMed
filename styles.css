@@ -353,13 +353,9 @@ a:hover {
     margin: auto;
   }
 
-  body {
+  #about, .faq-content, .cases-section, .footer-container {
     width: 100%;
   }
-
-  /* #about, .faq-content, .cases-section, .footer-container {
-    width: 95%;
-  } */
 
   .footer-text {
     flex-direction: column;
