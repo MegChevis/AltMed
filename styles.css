@@ -346,6 +346,10 @@ a:hover {
 
 @media (max-width: 600px) {
 
+  .section-header, .navbar-brand, .nav-link {
+    font-size:3rem;
+  }
+
   .red-section, .gray-section {
     padding-left: 0;
     padding-right: 0;
