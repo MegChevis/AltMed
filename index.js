@@ -1,6 +1,13 @@
 
 // add event listener to collapse navbar on click
 
+// $(".navbar-collapse a").click(function(){
+//   $(".navbar-collapse").slideToggle();
+//   $(".navbar-toggler").toggleClass("collapsed");
+//   $(".navbar-toggler").
+// });
+
+
 
 // FAQ accordion
 var acc = document.getElementsByClassName("accordion");

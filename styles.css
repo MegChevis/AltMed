@@ -1,6 +1,6 @@
 
 /* All Sections */
-body{
+body, .carousel-inner2 {
   background-color:#ff914d;
 }
 
@@ -17,17 +17,23 @@ a:hover {
   color: #000;
 }
 
-.section-header {
+.section-header, .navbar, .title-header {
   font-family: 'Redressed', cursive;
 }
 
-.section-text {
+.section-text, .carousel-caption, .footer-text, .footer-small-text {
   font-family: 'Open Sans', sans-serif;
+}
+
+.section-text {
   text-align: justify;
 }
 
-.red-section {
+.red-section, .navbar, .cases-inner {
   background-color: #9e081c;
+}
+
+.red-section {
   color: #fff;
   padding: 90px 50px 50px;
 }
@@ -39,17 +45,13 @@ a:hover {
 
 .gray-section {
   background-image:url(images/white_texture.jpg);
-  background-color: #545454;
   color:#000;
-  background-size: 100%;
   padding: 7% 15% 5%;
 }
 
 /* Navbar */
 .navbar {
-  font-family: 'Redressed', cursive;
   padding: 1rem 2rem 0 2rem;
-  background-color: #9e081c;
 }
 
 .nav-link, .navbar-brand {
@@ -67,6 +69,9 @@ a:hover {
 
 .welcome-container {
   padding: 70px 50px 50px;
+}
+
+.welcome-container, .logo-box, .footer-box, .footer-small-text {
   text-align: center;
 }
 
@@ -74,10 +79,6 @@ a:hover {
   top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.title-header {
-  font-family: 'Redressed', cursive;
 }
 
 /* About section */
@@ -165,14 +166,13 @@ a:hover {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.accordion .active, .accordion:hover {
+.accordion .active, .accordion:hover, .panel {
   background-color: #ccc;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   padding: 0 18px;
-  background-color: #ccc;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
@@ -196,10 +196,6 @@ a:hover {
 
 .first-paragraph {
   padding-top: 3%;
-}
-
-.cases-inner {
-  background-color: #9e081c;
 }
 
 .carousel-item {
@@ -270,10 +266,6 @@ a:hover {
   opacity: 30%;
 }
 
-.carousel-inner2 {
-  background-color: #ff914d;
-}
-
 .carousel-item {
   padding: 5% 15%;
 }
@@ -286,14 +278,6 @@ a:hover {
 }
 
 
-/* Caption text */
-.carousel-caption {
-  font-family: 'Open Sans', sans-serif;
-}
-
-
-
-
 /* Contact/footer */
 
 .footer-container {
@@ -302,17 +286,14 @@ a:hover {
 }
 
 .footer-logo {
-  background-color: #ff914d;
   width: 50%;
 }
 
 .logo-box {
-  text-align: center;
   padding-bottom: 3%;
 }
 
 .footer-box {
-  text-align: center;
   line-height: 2.5rem;
   padding-top: 5% 0 0 0;
 }
@@ -324,7 +305,6 @@ a:hover {
 }
 
 .footer-text {
-  font-family: 'Open Sans', sans-serif;
   text-align: left;
   padding: 3%;
   line-height: 3rem;
@@ -336,10 +316,8 @@ a:hover {
 }
 
 .footer-small-text {
-  font-family: 'Open Sans', sans-serif;
   font-size: .7rem;
   line-height: .2rem;
-  text-align: center;
   color: #ccc;
 }
 
@@ -347,7 +325,7 @@ a:hover {
 @media (max-width: 600px) {
 
   .section-header, .navbar-brand, .nav-link {
-    font-size:2.5rem;
+    font-size:2rem;
   }
 
   .title-heading {
@@ -360,7 +338,7 @@ a:hover {
     padding-right: 0;
   }
 
-  #about, .cases-section, .footer-container, .footer-logo {
+  .red-section, #about, .cases-section, .footer-container, .footer-logo {
     width: 100%;
   }
 
@@ -382,12 +360,12 @@ a:hover {
     padding-right: 3%;
   }
 
-  .title-image, .about-image, .about-image2, .about-image3, .faq-image, .dolphin-img, .case-image, .case-image2, .footer-logo {
+  .about-image, .about-image2, .about-image3, .faq-image, .dolphin-img, .case-image, .case-image2, .footer-logo {
     float: none;
     margin-left: 30%;
   }
 
-  .footer-logo {
+  .title-image {
     margin-left: 0;
   }
 
